@@ -1,13 +1,190 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* /* form {
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.16);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #E6E6E6;
+  background-color: #fff;
+  padding: 10px;
+}
+button {
+  width: 300px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+}
+
+page {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  /* input {
+    width: 30px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    background-color: #fff;
+    padding: 5px;
+  } */
+/* login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: relative;
+  justify-content: relative;
+  gap: 20px;
+  margin: auto;
+}  */
+
+
+ .login-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: absolute;
+  margin-top: 20px;
+} 
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.forgot-password {
+  margin-left: 170px;
+}
+.checkbox {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  gap: 8px;
+}
+.login-input input {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid rgba(4, 7, 47, 0.40);
+  background-color: #fff;
+  padding: 8px;
+  margin: 8px;
+}
+.login-footer button {
+  width: 350px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #1575A7;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+}
+
+.login-main h1 {
+  color: var(--Text-color, #04072F);
+
+text-align: center;
+/* Heading 1 - Bold - 48 */
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+line-height: 110%; /* 52.8px */
+margin-bottom: 30px;
+}
+
+.main {
+  font-family: 'Poppins', sans-serif;
+  display: inline-flex;
+padding: 40px 40px 40px 142px;
+justify-content: flex-end;
+align-items: center;
+gap: 147.781px;
+}
+
+.svg-component {
+  width: 543.219px;
+  height: 633.601px;
+  flex-shrink: 0;
+}
+
+.login {
+  font-family: 'Poppins', sans-serif;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+} 
+
+.login-footer {
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.login-main a {
+  color: #F78719;
+  font-weight: 300;
+}
+
+.login-foot a:hover {
+  color: #F9973A;
+  text-align: start;
+}
+
+.login-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: auto;
+}
+.login-page {
+  font-family: 'Poppins fade', sans-serif;
+  font-size: 14px;
+  color: #98989d;
+}
+
+.login-input {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+}
+
+/* .toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #ccc;
+}
+
+.toggle-password:hover {
+  color: #000;
+}
+
+input[type="password"] {
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+input[type="password"]:focus {
+  border-color: #000;
+} */
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
