@@ -7,8 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - The login page is a simple login page with a username and password field.
 - The username and password are stored in the local storage of the browser.
 ### Screenshots:
-![Screenshot (1)](login-page\public\working1.png)
-![Screenshot (2)](login-page\public\working.png)
+![Screenshot (1)](login-page\login-page\public\working1.png)
+![Screenshot (2)](login-page\login-page\public\working.png)
 
 ### How to run:
 - Clone the repository.
