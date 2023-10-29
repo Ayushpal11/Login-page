@@ -2,6 +2,22 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Login Page
+### Working:
+- The login page is a simple login page with a username and password field.
+- The username and password are stored in the local storage of the browser.
+### Screenshots:
+![Screenshot (1)](\public\working1.png)
+![Screenshot (2)](public\working.png)
+
+### How to run:
+- Clone the repository.
+- Open the terminal and navigate to the login-page folder.
+- Run the command `npm install` to install all the dependencies.
+- Run the command `npm start` to start the server.
+- Open the browser and navigate to `http://localhost:3000/` to view the login page.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
